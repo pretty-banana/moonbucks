@@ -1,15 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  background-color: black;
-
-  width: 14rem;
-  height: 17.5rem;
-`;
+import Notice from '../components/Home/Notice';
 
 const Home = () => {
-  return <Container />;
+  return (
+    <div>
+      <Notice />
+    </div>
+  );
 };
 
 export default Home;
