@@ -1,15 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  background-color: black;
-
-  width: 14rem;
-  height: 17.5rem;
-`;
+import Main1 from '../components/Home/Main1';
 
 const Home = () => {
-  return <Container />;
+  return (
+    <div>
+      <Main1 />;
+    </div>
+  );
 };
 
 export default Home;
