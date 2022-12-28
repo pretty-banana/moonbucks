@@ -1,15 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  background-color: black;
-
-  width: 14rem;
-  height: 17.5rem;
-`;
+import NavBar from '../components/Home/NavBar';
 
 const Home = () => {
-  return <Container />;
+  return <NavBar />;
 };
 
 export default Home;
